@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body
+
+{
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container
+
+{
+    background-color: white;
+    width: 26.25em;
+    height: 35.5em;
+    border-radius: 0.9em;
+}
+
+img 
+
+{
+    width: 100%;
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+}
+
+#title 
+
+{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.card-content 
+
+{
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.plan 
+
+{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    max-width: 350px;
+    margin: 15px auto;
+    align-items: center;
+    border-radius: 0.3em;
+    padding: 10px;
+}
+
+.plan a 
+
+{
+    color: blue;
+    font-weight: 500;
+}
+
+.price-duration 
+
+{
+    margin: 0 4.9em 0 15px;
+}
+
+.buttons
+
+{
+    display: grid;
+    place-items: center;
+    margin: 20px;
+}
+
+.payment
+
+{
+    border: none;
+    width: 350px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    border-radius: 0.6em;
+    color: white;
+    font-size: larger;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cancel
+
+{
+    border: none;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0.6em;
+    font-size: larger;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.payment, .cancel 
+
+{
+    cursor: pointer;
+}
