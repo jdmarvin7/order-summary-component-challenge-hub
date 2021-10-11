@@ -101,6 +101,21 @@ img
     font-weight: 600;
 }
 
+.payment:hover 
+
+{
+    background-color: (245, 75%, 52%);
+    box-shadow: 2px 3px 3px hsl(245, 75%, 52%);
+}
+
+.payment:focus 
+
+{
+    background-color: hsl(246, 75%, 57%);
+    box-shadow: 2px 3px 3px hsl(245, 75%, 52%);
+}
+
+
 .cancel
 
 {
@@ -119,3 +134,4 @@ img
 {
     cursor: pointer;
 }
+
